@@ -8,3 +8,9 @@ section{background:rgba(0,0,0,.45);padding:16px;border-radius:12px;margin-top:20
 .popup-content{background:#1c1633;color:#fff;width:90%;max-width:420px;padding:20px;border-radius:15px}
 code{background:#6d28d9;padding:3px 7px;border-radius:5px}
 button{display:block;width:100%;padding:14px;border:none;border-radius:12px;background:#6d28d9;color:#fff;margin:12px 0;font-size:16px}
+@media (max-width:768px){
+    body{
+        background-position: 65% center;
+        background-size: cover;
+    }
+}
